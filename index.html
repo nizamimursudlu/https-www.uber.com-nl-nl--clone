@@ -9,28 +9,55 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
   <header>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
     <nav class="nav-wrapper">
       <div class="container">
-        <img src="uber-logo.png">
-        <a href="#" class="btn">Bedrijf</a>
-        <a href="#" class="btn">Veiligheid</a>
-        <a href="#" class="btn">Help</a>
-        <a href="#" class="btn">Informatie over COVID-19</COVID-19></a>
-        <a href="#" class="btn">NL-NL</a>
-        <a href="#" class="btn">Producten</a>
-        <a href="#" class="btn">Inloggenf</a>
-        <a href="#" class="btn">Aanmelden</a>
+
+        <ul class="left-menu">
+          <li><a href="https://www.uber.com/nl/nl/" class="logo">Uber</li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Bedrijf<i
+                class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="#" class="btn">Veiligheid</a></li>
+          <li><a href="#" class="btn">Help</a></li>
+          <li><a href="#" class="btn">Informatie over COVID-19</a></li>
+        </ul>
+        <ul class="right-menu">
+          <li><a href="#" class="btn">
+              <span>NL-NL</span>
+              <i class="material-icons left">language</i>
+            </a>
+          </li>
+          <li><a href="#" class="btn">
+              <span>NL-NL</span>
+              <i class="material-icons left">view_comfy</i>
+            </a>
+          </li>
+          <li><a href="#" class="btn">
+              <span>Inloggen</span>
+              <i class="material-icons left">perm_identity</i>
+            </a>
+          </li>
+
+          </li>
+          <li><a href="#" class="btn" id="aanmelden">Aanmelden</a></li>
+        </ul>
       </div>
     </nav>
   </header>
-
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>

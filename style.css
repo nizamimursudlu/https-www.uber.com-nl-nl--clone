@@ -1,10 +1,60 @@
-header .nav-wrapper {
+* {
+  margin:0;
+  padding:0;
+  }
+  body {
+    width: 100%;
+  }
+  header .nav-wrapper {
   height: 64px;
   background-color: black;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+
+.logo {
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 0px;
+}
+.container {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header .btn {
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+  text-transform: none;
+  background-color:black;
+  height: 35px;
+  border-radius: 80px;
+  margin: auto;
+  padding-left: 3px;
+  padding-right: 5px;
+  margin-top: px;
+}
+#aanmelden {
+  color:black;
+  background-color: white;
+}
+#aanmelden:hover {
+  background-color:lightgray
+}
+header .btn:hover {
+  background-color:gray;
+}
+.left-menu {
+  color: white;
+  display: flex;
+  }
+.right-menu {
+  color: white;
+  display: flex;
+  margin-left: auto;
 }
