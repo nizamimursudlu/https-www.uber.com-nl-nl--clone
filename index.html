@@ -15,20 +15,25 @@
 </head>
 
 <body>
-  <header>
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
+  <header> *
+    <ul id="dropdown1" class="dropdown-content" style="width:200px;">
+      <li tabindex="0"><a href="#!">Over ons</a></li>
+      <li tabindex="0"><a href="#!">Wat wij bieden</a></li>
+      <li tabindex="0"><a href="#!">Hoe Uber werkt</a></li>
+      <li tabindex="0"><a href="#!">wereldgurgerschap</a></li>
+      <li tabindex="0"><a href="#!">Newsroom</a></li>
+      <li tabindex="0"><a href="#!">Investeerders</a></li>
+      <li tabindex="0"><a href="#!">Blog</a></li>
+      <li tabindex="0"><a href="#!">Werken bij Uber</a></li>
     </ul>
+
     <nav class="nav-wrapper">
       <div class="container">
-
         <ul class="left-menu">
           <li><a href="https://www.uber.com/nl/nl/" class="logo">Uber</li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Bedrijf<i
                 class="material-icons right">arrow_drop_down</i></a></li>
+
           <li><a href="#" class="btn">Veiligheid</a></li>
           <li><a href="#" class="btn">Help</a></li>
           <li><a href="#" class="btn">Informatie over COVID-19</a></li>
@@ -40,7 +45,7 @@
             </a>
           </li>
           <li><a href="#" class="btn">
-              <span>NL-NL</span>
+              <span>Producten</span>
               <i class="material-icons left">view_comfy</i>
             </a>
           </li>
@@ -56,8 +61,29 @@
       </div>
     </nav>
   </header>
+  <main>
+    <div class="nav-extended">
+      <ul>
+        <li>Beloning ontvangen</li>
+        <li>Instappen</li>
+        <li>Eten</li>
+        <li>Uner Freight</li>
+        <li>Zakelijk</li>
+        <li>Ov</li>
+        <li>Fiets en step</li>
+        <li>Elevate</li>
+      </ul>
+    </div>
+  </main>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.dropdown-trigger').dropdown({
+        hover: false
+      });
+    });
+  </script>
 </body>
 
 </html>

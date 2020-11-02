@@ -35,8 +35,8 @@ header .btn {
   height: 35px;
   border-radius: 80px;
   margin: auto;
-  padding-left: 3px;
-  padding-right: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-top: px;
 }
 #aanmelden {
@@ -58,3 +58,34 @@ header .btn:hover {
   display: flex;
   margin-left: auto;
 }
+.dropdown-content li>a, .dropdown-content li>span {
+  font-size: 16px;
+  color: gray;
+  display:block;
+  position: relative;
+  line-height: 20px;
+  padding: 14px 16px;
+  margin-top:0px;
+  width: 200px;
+}
+  nav ul a.btn {
+    margin-right: 0;
+  }
+ 
+  .dropdown-content element style {
+    display: block;
+    width: 200px;
+    left: 84.1875px;
+    top: 0px;
+    height: 400px;
+    transform-origin: 0px 0px;
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);}
+
+  .nav-extended {
+    background-image: url(image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+  }
