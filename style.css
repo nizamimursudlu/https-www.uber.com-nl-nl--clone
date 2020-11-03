@@ -1,6 +1,7 @@
 * {
   margin:0;
-  padding:0;
+  padding:0; 
+  box-sizing: border-box;
   }
   body {
     width: 100%;
@@ -62,30 +63,81 @@ header .btn:hover {
   font-size: 16px;
   color: gray;
   display:block;
-  position: relative;
-  line-height: 20px;
+  position: absolute;
+  line-height:;
   padding: 14px 16px;
-  margin-top:0px;
-  width: 200px;
+  margin-top:64px;
+  width: 400px;
 }
   nav ul a.btn {
     margin-right: 0;
   }
- 
-  .dropdown-content element style {
-    display: block;
+ .dropdown-content ul li {
+   width: 400px;;
+ }
+  ul#dropdown1.dropdown-content { 
+    wi
+   /* display: block;
+    position: absolute;
     width: 200px;
     left: 84.1875px;
-    top: 0px;
+    top: 64px;
     height: 400px;
     transform-origin: 0px 0px;
     opacity: 1;
-    transform: scaleX(1) scaleY(1);}
+    transform: scaleX(1) scaleY(1); */}
 
-  .nav-extended {
+  .background-pic1 {
+    position: absolute;
     background-image: url(image-1.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    font-family: sans-serif ;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 64px;
+  }
+  .nav-extended {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    
+    width: 87%;
+  }
+  .nav-extended ul {
+    list-style:none;
+    text-align: center;
+    display: flex;
+  }
+  .nav-extended  ul li {
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+    width: 120px;
+    margin: 12px;
+    padding: 12px;
+    
+  }
+  .nav-extended ul li a {
+    color:black;
+    text-align: center;
+  }
+  .nav-extended  ul li :hover {
+    color:gray; 
+  }
+  .sub-menu-beloning-ontvangen {
+    display:none;
+  }
+  .nav-extended ul li :hover.sub-menu-beloning-ontvangen {
+    display: block;
+    position:absolute;
+    background-color: green;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .nav-extended :hover .sub-menu-beloning-ontvangen ul {
+    display: block;
+  }
+  ul {
+    color:red;
   }
