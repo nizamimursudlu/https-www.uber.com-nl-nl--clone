@@ -1,9 +1,9 @@
 * {
   margin:0;
   padding:0; 
-  box-sizing: border-box;
-  }
+}
   body {
+    box-sizing: border-box;
     width: 100%;
   }
   header .nav-wrapper {
@@ -64,20 +64,24 @@ header .btn:hover {
   color: gray;
   display:block;
   position: absolute;
-  line-height:;
   padding: 14px 16px;
   margin-top:64px;
   width: 400px;
 }
   nav ul a.btn {
     margin-right: 0;
+      text-decoration: none;
+      color: #fff;
+      background-color:black;
+      text-align: center;
+      letter-spacing: .5px;
   }
  .dropdown-content ul li {
    width: 400px;;
  }
   ul#dropdown1.dropdown-content { 
-    wi
-   /* display: block;
+
+   /*display: block;
     position: absolute;
     width: 200px;
     left: 84.1875px;
@@ -85,7 +89,7 @@ header .btn:hover {
     height: 400px;
     transform-origin: 0px 0px;
     opacity: 1;
-    transform: scaleX(1) scaleY(1); */}
+    transform: scaleX(1) scaleY(1); }*/}
 
   .background-pic1 {
     position: absolute;
@@ -96,36 +100,41 @@ header .btn:hover {
     font-family: sans-serif;
     width: 100%;
     padding: 64px;
-  }
-  .nav-extended {
+  } 
+  .nav-ex{
+    display: flex;
     text-align: center;
     margin: auto;
     background-color: white;
-    
     width: 87%;
-  }
+    }
+    .nav-extended {
+      background: white;
+    }
+  
   .nav-extended ul {
+    display: flex;
     list-style:none;
     text-align: center;
-    display: flex;
+    justify-content: space-around;
   }
+  
   .nav-extended  ul li {
-    display: flex;
     align-items: center;
-    flex: 1 1 0;
-    width: 120px;
-    margin: 12px;
-    padding: 12px;
     
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+
   }
   .nav-extended ul li a {
     color:black;
     text-align: center;
   }
-  .nav-extended  ul li :hover {
+ /* .nav-extended  ul li a:hover {
     color:gray; 
-  }
-  .sub-menu-beloning-ontvangen {
+  }*/
+  /*.sub-menu-beloning-ontvangen {
     display:none;
   }
   .nav-extended ul li :hover.sub-menu-beloning-ontvangen {
@@ -141,3 +150,61 @@ header .btn:hover {
   ul {
     color:red;
   }
+  
+  /*.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tabs.tabs-transparent .tab.disabled a:hover {
+    color: black;
+    background-color:green;
+    display: flex;
+    text-align: stretch;
+    text-align: center;
+    
+  } 
+.nav-content ul {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-evenly;
+  height: 100%;
+}
+nav.nav-extended {
+  background-color: white;  
+  width: 80%;
+  margin: auto;
+}
+.tabs.tabs-transparent ul {
+  height: 120px;
+}
+.tab li {display: flex;
+  flex-basis: auto;
+  text-align: center;
+}
+.tabs .tab {
+  text-transform: none ;
+  height: 100%;
+  color: black;
+  background-color:green;
+}*/
+
+#window1 {
+  width: 500px;
+  background-color: white ;
+  margin-left: 6.5%;
+  padding: 40px;}
+#window1 h1 (
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 52px;
+  font-weight: 600px;
+}
+#window1 p {
+  font-size: 16px;
+  line-height: 24px;
+}
+nav #sliding-menu ul
+{
+  position: absolute;
+  height: 4px;
+  background: #000;
+  bottom: -8px;
+  transition: 0.5;
+  border-radius: 4px;
+  left: 0;
+}
