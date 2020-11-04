@@ -149,12 +149,12 @@ header .btn:hover {
     color:red;
   }
   
-  .tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tabs.tabs-transparent .tab.disabled a:hover {
+  /*.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tabs.tabs-transparent .tab.disabled a:hover {
     color: black;
     background-color:green;
     display: flex;
     text-align: stretch;
-    text-align: center;
+    text-align: center;*/
     
   } 
 .nav-content ul {
@@ -192,11 +192,12 @@ nav #slidingmenu
 }
 
 #window1 .animated-underline {
- border-bottom:  2px solid lightgrey;
+ 
  
 }
 .animated-underline{
   position: relative;
+  border-bottom:  2px solid lightgrey;
 }
 
 .animated-underline:after{
@@ -217,21 +218,46 @@ nav #slidingmenu
 }
 .with-bike-uber-pic {
   position: relative;
-  background-image: url(Modalities_banner_home.jpg);
   width: 100%;
   background-size: cover;
-  background-position: center;
   box-sizing: border-box;
-  height: 100%;
+  font-family: sans-serif;
+  background-image: url(modalities_banner_home.jpg);
+  height: 600px;
 }
   
 .we-brengen {
+  padding-top: 8%;
   width: 550px;
-  margin-left: 10%;
+  padding-left: 10%;
+
 }
-h2 {
+h2 {margin-top: 0px;
+  color: black;
   line-height: 44px;
   font-weight: 500;
   font-size: 36px;
 }
+.uber-for-business {
+  position: relative;
+  padding-top:8%;
+  width:100%;
+  padding-left: 10%;
+  padding-right: 10%;
 
+}
+.cards {
+  box-shadow: none;
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  flex-basis: auto;
+  justify-content: center;
+}
+.row .col.m7 {
+  width: 100%;
+  
+}
+.row {
+}
