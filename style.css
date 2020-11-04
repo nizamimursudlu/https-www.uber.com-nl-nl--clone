@@ -5,6 +5,7 @@
   body {
     box-sizing: border-box;
     width: 100%;
+    font-family: Helvetica, Arial, sans-serif
   }
   header .nav-wrapper {
   height: 64px;
@@ -79,21 +80,14 @@ header .btn:hover {
  .dropdown-content ul li {
    width: 400px;;
  }
-  ul#dropdown1.dropdown-content { 
-
-   /*display: block;
-    position: absolute;
-    width: 200px;
-    left: 84.1875px;
-    top: 64px;
-    height: 400px;
-    transform-origin: 0px 0px;
-    opacity: 1;
-    transform: scaleX(1) scaleY(1); }*/}
+ .dropdown-content {
+  width: 200px !important;
+  top: 64px !important;
+}
 
   .background-pic1 {
-    position: absolute;
-    background-image: url(image-1.jpg);
+    position: relative;
+    background-image: url(Product-Masthead-Desktop_2.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -106,11 +100,15 @@ header .btn:hover {
     text-align: center;
     margin: auto;
     background-color: white;
-    width: 87%;
+    width: 90%;
+    position: relative;
     }
     .nav-extended {
       background: white;
+      box-shadow: none;
+      border-bottom: 1px solid lightgrey
     }
+
   
   .nav-extended ul {
     display: flex;
@@ -120,7 +118,6 @@ header .btn:hover {
   }
   
   .nav-extended  ul li {
-    align-items: center;
     
     display: flex;
     align-items: flex-start;
@@ -131,10 +128,11 @@ header .btn:hover {
     color:black;
     text-align: center;
   }
- /* .nav-extended  ul li a:hover {
+
+ .nav-extended  ul li a:hover {
     color:gray; 
-  }*/
-  /*.sub-menu-beloning-ontvangen {
+  }
+  .sub-menu-beloning-ontvangen {
     display:none;
   }
   .nav-extended ul li :hover.sub-menu-beloning-ontvangen {
@@ -151,7 +149,7 @@ header .btn:hover {
     color:red;
   }
   
-  /*.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tabs.tabs-transparent .tab.disabled a:hover {
+  .tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tabs.tabs-transparent .tab.disabled a:hover {
     color: black;
     background-color:green;
     display: flex;
@@ -165,46 +163,75 @@ header .btn:hover {
   justify-content: space-evenly;
   height: 100%;
 }
-nav.nav-extended {
-  background-color: white;  
-  width: 80%;
-  margin: auto;
-}
-.tabs.tabs-transparent ul {
-  height: 120px;
-}
-.tab li {display: flex;
-  flex-basis: auto;
-  text-align: center;
-}
-.tabs .tab {
-  text-transform: none ;
-  height: 100%;
-  color: black;
-  background-color:green;
-}*/
-
 #window1 {
-  width: 500px;
+  width: 550px;
   background-color: white ;
-  margin-left: 6.5%;
-  padding: 40px;}
-#window1 h1 (
-  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 5%;
+  padding: 40px;
+}
+#window1 h1 {
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 52px;
   font-weight: 600px;
 }
 #window1 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
+
 }
-nav #sliding-menu ul
+
+nav #slidingmenu 
 {
-  position: absolute;
   height: 4px;
   background: #000;
   bottom: -8px;
   transition: 0.5;
   border-radius: 4px;
   left: 0;
+  width:0;
 }
+
+#window1 .animated-underline {
+ border-bottom:  2px solid lightgrey;
+ 
+}
+.animated-underline{
+  position: relative;
+}
+
+.animated-underline:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  display: block;
+  
+  right: 0;
+  background:black;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+.animated-underline:hover:after{
+  width: 100%;
+  left: 0;
+  background: black;
+}
+.with-bike-uber-pic {
+  position: relative;
+  background-image: url(Modalities_banner_home.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+  
+.we-brengen {
+  width: 550px;
+  margin-left: 10%;
+}
+h2 {
+  line-height: 44px;
+  font-weight: 500;
+  font-size: 36px;
+}
+
