@@ -29,37 +29,43 @@
 
     <nav class="nav-wrapper">
       <div class="container">
-        <ul class="left-menu">
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class=" left-menu">
           <li><a href="https://www.uber.com/nl/nl/" class="logo">Uber</li>
-          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Bedrijf<i
-                class="material-icons right">arrow_drop_down</i></a></li>
-
-          <li><a href="#" class="btn">Veiligheid</a></li>
-          <li><a href="#" class="btn">Help</a></li>
-          <li><a href="#" class="btn">Informatie over COVID-19</a></li>
+          <li><a class="dropdown-trigger btn hide-on-med-and-down" href="#!" data-target="dropdown1">Bedrijf<i
+                class="material-icons right ">arrow_drop_down</i></a>
+          </li>
+          <li><a href="#" class="btn hide-on-med-and-down">Veiligheid</a></li>
+          <li><a href="#" class="btn hide-on-med-and-down">Help</a></li>
+          <li><a href="#" class="btn hide-on-med-and-down">Informatie over COVID-19</a></li>
         </ul>
         <ul class="right-menu">
-          <li><a href="#" class="btn">
+          <li><a href="#" class="btn hide-on-med-and-down">
               <span>NL-NL</span>
               <i class="material-icons left">language</i>
             </a>
           </li>
-          <li><a href="#" class="btn">
+          <li><a href="#" class="btn hide-on-med-and-down">
               <span>Producten</span>
               <i class="material-icons left">view_comfy</i>
             </a>
           </li>
-          <li><a href="#" class="btn">
-              <span>Inloggen</span>
-              <i class="material-icons left">perm_identity</i>
-            </a>
-          </li>
+          <li><a href="#" class="btn hide-on-med-and-down">
+              <span>Inloggen</span></a>
+            <i class="material-icons left">perm_identity</i>
 
           </li>
           <li><a href="#" class="btn" id="aanmelden">Aanmelden</a></li>
         </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#" class="btn">Veiligheid</a></li>
+      <li><a href="#" class="btn">Help</a></li>
+      <li><a href="#" class="btn">Informatie over COVID-19</a></li>
+    </ul>
   </header>
   <main>
     <div class="background-pic1">
@@ -85,7 +91,8 @@
         <p class="animated-underline">Meer informatie over rijden en bezorgen</p>
       </div>
     </div>
-
+    <div class="pic-for-amedia">
+    </div>
 
     <div class="with-bike-uber-pic">
       <div class="we-brengen">
@@ -97,62 +104,31 @@
       <h2>Uber for business</h2><br>
       <p class="animated-underline">De kracht van Uber tijdens het werk</p><br>
       <div class="cards">
-        <div class="row">
-          <div class="col s12 m7">
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_720,h_480/v1585954525/assets/14/fcb55f-8d2c-4037-be40-96265930413e/original/business-eater-horz2x.png">
-                <span class="card-title">
-                </span>
-              </div>
-              <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-              </div>
-              <div class="card-action">
-                <p class="animated-underline">Lees meer</p>
-              </div>
-            </div>
+        <div class="card1">
+          <img class="card-image" src="business-eater-horz2x.png">
+          <h3>Maaltijden op het werk</h3>
+          <p>Verras je medewerkers met hun favoriete maaltijden die bezorgd worden waar ze ook werken.</p>
+          <div class="card-action">
+            <p class="animated-underline">Lees meer</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m7">
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_720,h_480/v1585954625/assets/6a/4717e8-ac27-493e-a940-990e87d31f02/original/employee-travel-horz2x.png">
-                <span class="card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-              </div>
-              <div class="card-action">
-                <p class="animated-underline">Lees meer</p>
-              </div>
-            </div>
+        <div class="card2">
+          <img class="card-image" src="employee-travel-horz2x.png">
+          <h3>Ritten van medewerkers</h3>
+          <p>Geen omkijken meer naar zakelijke ritten. Maak programma's voor vervoer over de weg en
+            woon-werkverkeer voor medewerkers.</p>
+          <div class="card-action">
+            <p class="animated-underline">Lees meer</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m7">
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1000,h_667/v1585954718/assets/e1/70f6a1-f828-414c-b3f1-fa39a6915711/original/ride-coordinator-horz2x.png">
-                <span class=" card-title"></span>
-              </div>
-              <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.""
-                  I am convenient because I require little markup to use effectively.</p>
-              </div>
-              <div class="card-action">
-                <p class="animated-underline">Lees meer</p>
-              </div>
-            </div>
+        <div class="card3">
+          <img class="card-image" src="ride-coordinator-horz2x.png">
+          <h3>Aangeboden ritten</h3>
+          <p>Maak een blijvende indruk. Regel ritten van deur tot deur voor je klanten en gasten.</p>
+          <div class="card-action">
+            <p class="animated-underline">Lees meer</p>
           </div>
         </div>
-
       </div>
     </div>
     <footer>
@@ -198,7 +174,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <div footer-bottom-left>
+          <div class="footer-bottom-left">
             <p>© 2020 Uber Technologies Inc.</p>
           </div>
           <div class="footer-bottom-right">
@@ -239,6 +215,20 @@
         })
       })
     </script>
+    <script>
+      $(document).ready(function () {
+        $('.sidenav').sidenav()
+      })
+    </script>
+    <script>
+      $('button-collaps').sideNav({
+        menuWidth: 300,
+        closeOnClick: true,
+        egde: 'right'
+      });
+      $('collapsible').collapsible();
+    </script>
+  </main>
 </body>
 
 </html>

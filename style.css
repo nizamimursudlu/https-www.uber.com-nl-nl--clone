@@ -98,10 +98,11 @@ header .btn:hover {
   .nav-ex{
     display: flex;
     text-align: center;
-    margin: auto;
     background-color: white;
     width: 90%;
+    margin: auto;
     position: relative;
+    flex-wrap: nowrap;
     }
     .nav-extended {
       background: white;
@@ -149,14 +150,6 @@ header .btn:hover {
     color:red;
   }
   
-  /*.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tabs.tabs-transparent .tab.disabled a:hover {
-    color: black;
-    background-color:green;
-    display: flex;
-    text-align: stretch;
-    text-align: center;*/
-    
-  } 
 .nav-content ul {
   display: flex;
   flex-basis: auto;
@@ -191,10 +184,7 @@ nav #slidingmenu
   width:0;
 }
 
-#window1 .animated-underline {
- 
- 
-}
+
 .animated-underline{
   position: relative;
   border-bottom:  2px solid lightgrey;
@@ -223,7 +213,7 @@ nav #slidingmenu
   box-sizing: border-box;
   font-family: sans-serif;
   background-image: url(modalities_banner_home.jpg);
-  height: 600px;
+  height:600px;
 }
   
 .we-brengen {
@@ -241,36 +231,34 @@ h2 {margin-top: 0px;
 .uber-for-business {
   position: relative;
   padding-top:8%;
-  width:100%;
   padding-left: 10%;
   padding-right: 10%;
-
 }
 .cards {
-  box-shadow: none;
-  position: relative;
-  margin: 0;
   display: flex;
-  width: 100%;
-  flex-basis: auto;
-  justify-content: center;
+  flex-wrap: wrap;
+  width:100%;
 }
-.row .col.m7 {
-  width: 100%;
-  
+
+.card1, .card2, .card3 {
+  width:33.33%
+
 }
-.row {
+.card-image {
+  width: 100%;
 }
 .the-last-black-div{
   background-color: black;
   color:#fff;
   padding: 8%;
   height: px;
+  
+  width: 100%;
 }
 .four-colomns {
  display: flex;
  justify-content: space-between;
- 
+ flex-wrap: wrap;
 }
 h3 {
   font-size: 18px;
@@ -294,11 +282,74 @@ h3 {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   }
   .footer-bottom-right {
     display: flex;
-    width: 270px;
+    width: 30%;
     justify-content: end;
     justify-content: space-between;
+    
   }
-  @media 
+  
+  
+
+.sidenav {
+  width:100%
+}
+
+  @media all and (max-width:1136px) {
+    .background-pic1 {
+      padding:0;
+      position: relative;
+      width: 100%; 
+      visibility: visible;
+    }
+    .nav-ex{
+    width:100%;
+    }
+    .pic-for-amedia {
+      visibility: visible;
+      background-image: url(Product-Masthead-Desktop_2.jpg);
+      height: 600px;
+      background-repeat: no-repeat;
+      background-position: center right;
+      background-size: cover;
+      box-sizing: border-box;
+      width: 100%;
+    }
+   #window1 {
+      width:100%;
+      margin: 0;
+  }
+  .with-bike-uber-pic {
+    height: 600px;
+  }
+    .card1, .card2, .card3 {
+      width:50%;
+    }
+    .bedrijf, .producten, .wereldburgerschap, .innovatie {
+      width: 50%;
+    }
+
+    .footer-bottom-right {
+      margin-top: 50px;
+      width: 270px;}
+    
+    .footer-bottom {
+     flex-direction: column;
+    }
+  }
+  
+   
+
+
+  @media all and (min-width:1136px) {    
+
+}
+  @media all and (max-width:600px) {
+      .card1, .card2, .card3 {
+      width: 100%;
+    }
+   
+  
