@@ -261,3 +261,44 @@ h2 {margin-top: 0px;
 }
 .row {
 }
+.the-last-black-div{
+  background-color: black;
+  color:#fff;
+  padding: 8%;
+  height: px;
+}
+.four-colomns {
+ display: flex;
+ justify-content: space-between;
+ 
+}
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.link-hover {
+  color: white;
+}
+.link-hover:hover {
+  color: grey;
+}
+.bedrijf ul li, .producten ul li, .wereldburgerschap ul li, .innovatie ul li {
+  line-height: 30px;
+  font-size: 14px;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer-bottom {
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  }
+  .footer-bottom-right {
+    display: flex;
+    width: 270px;
+    justify-content: end;
+    justify-content: space-between;
+  }
+  @media 
