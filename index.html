@@ -16,6 +16,20 @@
 
 <body>
   <header>
+    <!--<nav class="top">
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>Home</li>
+      </ul>
+      <script src="app.js"></script>
+
+      </nav-top>!-->
     <ul id="dropdown1" class="dropdown-content">
       <li tabindex="0"><a href="#!">Over ons</a></li>
       <li tabindex="0"><a href="#!">Wat wij bieden</a></li>
@@ -186,47 +200,9 @@
       </div>
 
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('.dropdown-trigger').dropdown({
-          hover: false
-        });
-      });
-    </script>
-    <script>M.AutoInit();</script>
-    <script>
-      $(document).ready(function () {
-        $('.tabs').tabs();
-      });
-    </script>
-    <script type="text/javascript">
-      var slidingmenu = document.querySelector('#slidingmenu');
-      var item = document.querySelectorAll('nav a');
 
-      function indicator(e) {
-        slidingmenu.style.left = e.offsetLeft + "px";
-        slidingmenu.style.width = e.offsetWidth + "px";
-      }
-      item.forEach(link => {
-        link.addEventListener('click', (e) => {
-          indicator(e.target);
-        })
-      })
-    </script>
     <script>
-      $(document).ready(function () {
-        $('.sidenav').sidenav()
-      })
-    </script>
-    <script>
-      $('button-collaps').sideNav({
-        menuWidth: 300,
-        closeOnClick: true,
-        egde: 'right'
-      });
-      $('collapsible').collapsible();
+
     </script>
   </main>
 </body>
