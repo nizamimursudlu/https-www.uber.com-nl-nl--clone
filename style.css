@@ -1,13 +1,13 @@
 * {
-  margin:0;
-  padding:0; 
+  margin: 0;
+  padding: 0;
 }
-  body {
-    box-sizing: border-box;
-    width: 100%;
-    font-family: Helvetica, Arial, sans-serif
-  }
-  header .nav-wrapper {
+body {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+header .nav-wrapper {
   height: 64px;
   background-color: black;
   display: flex;
@@ -15,13 +15,12 @@
   max-width: 100%;
 }
 
-
-  .logo {
+.logo {
   font-size: 25px;
   margin-right: 10px;
   padding: 0px;
 }
-  .container {
+.container {
   box-sizing: border-box;
   display: flex;
   padding: 0px;
@@ -33,7 +32,7 @@
 }
 header .btn {
   text-transform: none;
-  background-color:black;
+  background-color: black;
   height: 35px;
   border-radius: 80px;
   margin: auto;
@@ -42,149 +41,145 @@ header .btn {
   margin-top: px;
 }
 #aanmelden {
-  color:black;
+  color: black;
   background-color: white;
 }
 #aanmelden:hover {
-  background-color:lightgray
+  background-color: lightgray;
 }
 header .btn:hover {
-  background-color:gray;
+  background-color: gray;
 }
-  .left-menu {
+.left-menu {
   color: white;
   display: flex;
-  }
-  .right-menu {
+}
+.right-menu {
   color: white;
   display: flex;
   margin-left: auto;
 }
-  .dropdown-content li>a, .dropdown-content li>span {
+.dropdown-content li > a,
+.dropdown-content li > span {
   font-size: 16px;
   color: gray;
-  display:block;
+  display: block;
   position: absolute;
   padding: 14px 16px;
-  margin-top:64px;
+  margin-top: 64px;
   width: 400px;
 }
-  nav ul a.btn {
-    margin-right: 0;
-      text-decoration: none;
-      color: #fff;
-      background-color:black;
-      text-align: center;
-      letter-spacing: .5px;
-  }
-  .background-pic1 {
-    position: relative;
-    background-image: url(Product-Masthead-Desktop_2.jpg);
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    width: 100%;
-    padding: 64px;
-  } 
-  .nav-ex{
-    display: flex;
-    text-align: center;
-    background-color: white;
-    width: 90%;
-    margin: auto;
-    position: relative;
-    flex-wrap: nowrap;
-    }
-    .nav-extended {
-      background: white;
-      box-shadow: none;
-      border-bottom: 1px solid lightgrey;
-    }
+nav ul a.btn {
+  margin-right: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.background-pic1 {
+  position: relative;
+  background-image: url(Product-Masthead-Desktop_2.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  padding: 64px;
+}
+.nav-ex {
+  display: flex;
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  flex-wrap: nowrap;
+}
+.nav-extended {
+  background: white;
+  box-shadow: none;
+  border-bottom: 1px solid lightgrey;
+}
 
-  
-  .nav-extended ul {
-    display: flex;
-    list-style:none;
-    text-align: center;
-    justify-content: space-around;
-  }
-  
-  .nav-extended  ul li {
-    
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+.nav-extended ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+}
 
-  }
-  .nav-extended ul li a {
-    color:black;
-    text-align: center;
-  }
+.nav-extended ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.nav-extended ul li a {
+  color: black;
+  text-align: center;
+}
 
-  .nav-extended  ul li a:hover {
-    color:gray; 
-  }
-  .sub-menu-beloning-ontvangen {
-    display:none;
-  }
- 
-  ul {
-    color:red;
-  }
-  
-  .nav-content ul {
+.nav-extended ul li a:hover {
+  color: gray;
+}
+.sub-menu-beloning-ontvangen {
+  display: none;
+}
+
+ul {
+  color: red;
+}
+
+.nav-content ul {
   display: flex;
   flex-basis: auto;
   justify-content: space-evenly;
   height: 100%;
 }
-  #window1 {
+#window1 {
   width: 550px;
-  background-color: white ;
+  background-color: white;
   margin-left: 5%;
   padding: 40px;
 }
-  #window1 h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+#window1 h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 52px;
   font-weight: 600px;
 }
-  #window1 p {
+#window1 p {
   font-size: 20px;
   line-height: 24px;
-
 }
 
-  nav #slidingmenu 
-{
+nav #slidingmenu {
   height: 4px;
   background: #000;
   bottom: -8px;
   transition: 0.5;
   border-radius: 4px;
   left: 0;
-  width:0;
+  width: 0;
 }
 
-
-.animated-underline{
+.animated-underline {
   position: relative;
-  border-bottom:  2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
 }
 
-.animated-underline:after{
+.animated-underline:after {
   content: '';
   position: absolute;
-  width: 0; height: 2px;
+  width: 0;
+  height: 2px;
   display: block;
-  
+
   right: 0;
-  background:black;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
+  background: black;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
 }
-.animated-underline:hover:after{
+.animated-underline:hover:after {
   width: 100%;
   left: 0;
   background: black;
@@ -196,16 +191,17 @@ header .btn:hover {
   box-sizing: border-box;
   font-family: sans-serif;
   background-image: url(modalities_banner_home.jpg);
-  height:600px;
+  height: 600px;
 }
-  
-.we-brengen {
-  padding-top: 8%;
-  width: 550px;
-  padding-left: 10%;
 
+div.we-brengen {
+  margin: 0;
+  padding-top: 8%;
+  width: 50%;
+  padding-left: 10%;
 }
-h2 {margin-top: 0px;
+h2 {
+  margin-top: 0px;
   color: black;
   line-height: 44px;
   font-weight: 500;
@@ -213,35 +209,36 @@ h2 {margin-top: 0px;
 }
 .uber-for-business {
   position: relative;
-  padding-top:8%;
+  padding-top: 8%;
   padding-left: 10%;
   padding-right: 10%;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
-  width:100%;
+  width: 100%;
 }
 
-.card1, .card2, .card3 {
-  width:33.33%
-
+.card1,
+.card2,
+.card3 {
+  width: 33.33%;
 }
 .card-image {
   width: 100%;
 }
-.the-last-black-div{
+.the-last-black-div {
   background-color: black;
-  color:#fff;
+  color: #fff;
   padding: 8%;
   height: px;
-  
+
   width: 100%;
 }
 .four-colomns {
- display: flex;
- justify-content: space-between;
- flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 h3 {
   font-size: 18px;
@@ -255,10 +252,13 @@ h3 {
 .link-hover:hover {
   color: grey;
 }
-.bedrijf ul li, .producten ul li, .wereldburgerschap ul li, .innovatie ul li {
+.bedrijf ul li,
+.producten ul li,
+.wereldburgerschap ul li,
+.innovatie ul li {
   line-height: 30px;
   font-size: 14px;
-  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .footer-bottom {
   margin-top: 50px;
@@ -266,116 +266,97 @@ h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  }
-  .footer-bottom-right {
-    display: flex;
-    width: 30%;
-    justify-content: end;
-    justify-content: space-between;
-    
-  }
-  .sidenav {
-  width:100%
+}
+.footer-bottom-right {
+  display: flex;
+  width: 30%;
+  justify-content: end;
+  justify-content: space-between;
+}
+.sidenav {
+  width: 100%;
 }
 
-  @media all and (max-width:1136px) {
-    .background-pic1 {
-      padding:0;
-      position: relative;
-      width: 100%; 
-      visibility: visible;
-    }
-    .nav-ex{
-    width:100%;
-    }
-    .pic-for-amedia {
-      visibility: visible;
-      background-image: url(Product-Masthead-Desktop_2.jpg);
-      height: 600px;
-      background-repeat: no-repeat;
-      background-position: center right;
-      background-size: cover;
-      box-sizing: border-box;
-      width: 100%;
-    }
-   #window1 {
-      width:100%;
-      margin: 0;
+@media all and (max-width: 1136px) {
+  .background-pic1 {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    visibility: visible;
+  }
+  .nav-ex {
+    width: 100%;
+  }
+  .pic-for-amedia {
+    visibility: visible;
+    background-image: url(Product-Masthead-Desktop_2.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #window1 {
+    width: 100%;
+    margin: 0;
   }
   .with-bike-uber-pic {
     height: 600px;
   }
-    .card1, .card2, .card3 {
-      width:50%;
-    }
-    .bedrijf, .producten, .wereldburgerschap, .innovatie {
-      width: 50%;
-    }
-
-    .footer-bottom-right {
-      margin-top: 50px;
-      width: 270px;}
-    
-    .footer-bottom {
-     flex-direction: column;
-    }
+  .card1,
+  .card2,
+  .card3 {
+    width: 50%;
   }
-  
-   
+  .bedrijf,
+  .producten,
+  .wereldburgerschap,
+  .innovatie {
+    width: 50%;
+  }
 
+  .footer-bottom-right {
+    margin-top: 50px;
+    width: 270px;
+  }
 
-  @media all and (min-width:1136px) {    
-
+  .footer-bottom {
+    flex-direction: column;
+  }
+  div.we-brengen {
+    width: 100%;
+    margin: 0;
+  }
+  .nav-extended ul {
+    justify-content: start;
+    overflow-y: scroll;
+  }
 }
-  @media all and (max-width:600px) {
-      .card1, .card2, .card3 {
-      width: 100%;
-    }
+
+@media all and (min-width: 1136px) {
+}
+
+@media all and (max-width: 600px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
   }
-   nav.top {
-     height: 68px;
-     background: black;
 
-   }
-   .nav-links {
-     display: flex;
-     color:white;
-     margin-left:auto;
-     justify-content: space-around;
-     width: 50%;
-   }
-
-   @media screen and (max-width: 1336px){
-
-      .line{
-        width: 30px;
-        height: 3px;
-        background: #fff;
-        margin: 5px;
-
-      }
-      nav.top {
-        position: relative;
-      }
-      .hamburger { position: absolute;
-        cursor: pointer;
-        right: 3%;
-        top:25%;
-
-      }
-     .nav-links {
-       position: fixed;
-       background: black;
-       height: 100vh;
-       width: 100%;
-       flex-direction: column;
-       clip-path:circle(1000px at 90% -10%);
-       -webkit-clip-path: circle( 1000px at 90% -10%%)
-     }
-     nav-links.open {
-        clip-path:circle(1000px at 90% -10%);
-       -webkit-clip-path: circle( 1000px at 90% -10%%)
-     }
-
-   }
-  
+  .we-brengen {
+    width: 100%;
+    margin: 0;
+  }
+}
+nav.top {
+  height: 68px;
+  background: black;
+}
+.nav-links {
+  display: flex;
+  color: white;
+  margin-left: auto;
+  justify-content: space-around;
+  width: 50%;
+}
